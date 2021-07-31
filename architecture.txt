@@ -1,0 +1,9 @@
+model class - RestApiModel
+controller class - RestApiController
+http://localhost:8080/list - Returns the List of URLs using pagination
+http://localhost:8080/storeurl?url="xxx.com" - xxx.com is the url which gets stored in DB.
+http://localhost:8080/get?url="xxx.com" - xxx.com gets the url increases the count of visitors by 1 and returns the unique short key.
+http://localhost:8080/count?url - Returns the count of visitors of the url
+
+Unique short key is generated using Random Generator in Java.
+Used PostMan to test the APIs.
